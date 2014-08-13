@@ -1,0 +1,16 @@
+{
+  "name": "jasper-mfi",
+  "version": "0.1.0",
+  "author": "Jasper Lievisse Adriaanse",
+  "summary": "Module to manage the mFi controller",
+  "license": "MIT",
+  "source": "https://github.com/jasperla/puppet-mfi.git",
+  "project_page": "https://github.com/jasperla/puppet-mfi",
+  "issues_url": "https://github.com/jasperla/puppet-mfi/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ]
+}
