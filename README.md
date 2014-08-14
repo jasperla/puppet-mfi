@@ -3,15 +3,11 @@
 #### Table of Contents
 
 1. [Overview](#overview)
-2. [Module Description - What the module does and why it is useful](#module-description)
-3. [Setup - The basics of getting started with mfi](#setup)
-    * [What mfi affects](#what-mfi-affects)
-    * [Setup requirements](#setup-requirements)
-    * [Beginning with mfi](#beginning-with-mfi)
-4. [Usage - Configuration options and additional functionality](#usage)
-5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
-5. [Limitations - OS compatibility, etc.](#limitations)
-6. [Development - Guide for contributing to the module](#development)
+2. [Usage](#usage)
+3. [Reference](#reference)
+4. [Limitations](#limitations)
+5. [Copyright](#copyright)
+6. [Contributin](#contributing)
 
 ## Overview
 
@@ -29,7 +25,7 @@ There is generally little to configure, aside from the HTTP(s) ports:
 - `portal_http_port` defaults to`6880`
 - `portal_https_port` defaults to`6843`
 
-## Proxy
+### Proxy
 
 One may want to operate a proxy in front of mFi, such as nginx. This
 is documented on [my blog](http://blog.jasper.la/puppetized-mfi-controller/).
@@ -40,8 +36,8 @@ is documented on [my blog](http://blog.jasper.la/puppetized-mfi-controller/).
 
 ## Limitations
 
-Currently only tested on OpenBSD with an uncommitted port for
-`mfi`. Please submit a pull request to add support for other platforms.
+Currently only tested on OpenBSD with `net/mfi`.
+Please submit a pull request to add support for other platforms.
 
 ## Copyright
 
