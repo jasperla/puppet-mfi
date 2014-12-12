@@ -1,8 +1,8 @@
 # == Type: mfi::property
 #
 define mfi::property (
+  $target,
   $value    = '',
-  $target
 ) {
   augeas { "${target}/${prop}/${value}":
     lens    => 'Properties.lns',

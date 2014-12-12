@@ -9,7 +9,7 @@ class mfi::defaults {
       $system_properties_path = '/usr/local/share/mfi/data/system.properties'
     }
     default: {
-      fail("unsupported operating system: ${osfamily}")
+      fail("unsupported operating system: ${::osfamily}")
     }
   }
 

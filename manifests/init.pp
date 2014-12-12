@@ -66,11 +66,11 @@ class mfi (
   }
 
   file { 'mfi_system.properties':
-    ensure  => 'file',
-    path    => $system_properties_path,
-    owner   => $user,
-    group   => $group,
-    mode    => '0644',
+    ensure => 'file',
+    path   => $system_properties_path,
+    owner  => $user,
+    group  => $group,
+    mode   => '0644',
   }
 
   service { $service:
